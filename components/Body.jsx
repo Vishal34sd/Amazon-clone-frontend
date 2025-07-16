@@ -12,7 +12,7 @@ const Body = () => {
        
       </div>
       <div className='mt-8 p-6 bg-[#fefdfd] w-11/12 mx-auto shadow-[4px_4px_8px_-1px_rgba(0,0,0,0.1)]' >
-        <h3>Top deals with exchange | Up to ₹60,000o off</h3>
+        <h3>Top deals with exchange | Up to ₹60,000 off</h3>
         <div className='bg-white flex justify-between'>
           {
             mobileData.map((item , index)=>{
