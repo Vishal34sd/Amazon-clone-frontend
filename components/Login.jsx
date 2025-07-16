@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -6,7 +7,7 @@ const Login = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    // Add login logic here
+    
     alert('Login submitted!');
   };
 
@@ -43,9 +44,9 @@ const Login = () => {
           By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
         </p>
         <hr className="my-6" />
-        <button className="w-full bg-gray-200 py-2 rounded font-semibold hover:bg-gray-300">
+        <Link to ="/signup"><button className="w-full bg-gray-200 py-2 rounded font-semibold hover:bg-gray-300">
           Create your Amazon account
-        </button>
+        </button></Link>
       </div>
     </div>
   );

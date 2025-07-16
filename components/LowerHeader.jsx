@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const LowerHeader = () => {
   return (
-    <div className = "flex bg-[#0f1111] justify-between">
+    <div className = "flex bg-[#232F3E] justify-between">
       <div ><Link to="/"><p className='text-[#f5f5f5] ml-4'>All</p></Link></div>
       <div><p className='text-[#f5f5f5]'>Prime Day Deals</p></div>
       <div><p className='text-[#f5f5f5]' >MX Player</p></div>

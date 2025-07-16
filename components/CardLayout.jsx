@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FirstCardLayout= () => {
+const CardLayout= () => {
   return (
     <div className="flex bg-transparent justify-evenly px-8  ">
       <div className="w-[306px] h-[375px] bg-white ml-10 mt-50 flex flex-col justify-between rounded-md">
@@ -81,4 +81,4 @@ const FirstCardLayout= () => {
   )
 }
 
-export default FirstCardLayout ;
+export default CardLayout ;

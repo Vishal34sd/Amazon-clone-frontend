@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div className="flex bg-black">
-      <div className='w-36 h-16' ><img src = "amazonLogo1.png" className='p-6'></img></div>
+    <div className="flex bg-[#131921]">
+      <div className='w-36 h-16' ><img src = "amazonLogo.png" className='p-6 bg-transparent opacity-90'></img></div>
      <div className='flex-col'> <p className='text-[#ffff] p-1 text'>Delivering to Prayagraj </p>
          <p className='text-[#ffff] text-xl'>Update location </p>
      </div>
@@ -20,7 +20,7 @@ const Header = () => {
       <div className="ml-18 mt-4"><Link to ="/login"><button className="bg-amber-500 text-black w-28 rounded-md text-xl pb-0.5 hover:cursor-pointer">Login</button></Link></div>
       <div className='ml-12 mt-2'><p className='text-white pb-0.5'>Returns & <br/>
         Orders</p></div>
-      <div className = "ml-10 mt-1"><img src = "cart.png" className = "w-20 h-15"></img></div>
+      <div className = "ml-10 mt-1"><img src = "cart_new.png" className = "w-20 h-15 bg-transparent"></img></div>
 
     </div>
   )
