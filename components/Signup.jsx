@@ -9,7 +9,7 @@ const Signup = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    // Add signup logic here
+    
     alert('Account created!');
   };
 
