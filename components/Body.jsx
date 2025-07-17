@@ -7,7 +7,7 @@ const Body = () => {
   return (
     <div  className="bg-gradient-to-b from-[#368fcb] to-[#ffff] relative">
 
-      <img src="banner_magic.png" className="w-full  [mask-image:linear-gradient(to_bottom,black,transparent)]" alt="Banner" />
+      <img src="banner.png" className="w-full  [mask-image:linear-gradient(to_bottom,black,transparent)]" alt="Banner" />
       <div className="absolute top-8 left-8 flex gap-4">
         <CardLayout />
        

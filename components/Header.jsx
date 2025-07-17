@@ -16,7 +16,7 @@ const Header = () => {
   };
   
   return (
-    <div className="flex bg-[#080808]">
+    <div className="flex bg-[#131921]">
       <div className='w-36 h-20' ><img src = "amazino_new.png" className='p-6 bg-transparent opacity-90'></img></div>
      <div className='flex-col'> <p className='text-[#ffff] p-1 text'>Delivering to Prayagraj </p>
          <p className='text-[#ffff] text-xl'>Update location </p>
