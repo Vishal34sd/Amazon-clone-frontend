@@ -10,14 +10,14 @@ const Header = () => {
 
   const handleSearch = () => {
     const filtered = searchData.filter(item =>
-      item.category.toLowerCase().includes(searchText.toLowerCase())
+      item.category.toLowerCase().trim().includes(searchText.toLowerCase().trim())
     );
     setFilteredData(filtered);
   };
   
   return (
-    <div className="flex bg-[#131921]">
-      <div className='w-36 h-16' ><img src = "amazonLogo.png" className='p-6 bg-transparent opacity-90'></img></div>
+    <div className="flex bg-[#080808]">
+      <div className='w-36 h-20' ><img src = "amazino_new.png" className='p-6 bg-transparent opacity-90'></img></div>
      <div className='flex-col'> <p className='text-[#ffff] p-1 text'>Delivering to Prayagraj </p>
          <p className='text-[#ffff] text-xl'>Update location </p>
      </div>
@@ -27,12 +27,12 @@ const Header = () => {
           onChange ={(e)=> setSearchText(e.target.value)}
           type="text" 
           className="px-3 py-1  bg-white w-2xl border-none outline-none focus:ring-0"
-          placeholder="Search Amazon.in"
+          placeholder="Search Amazino.in"
         />
         <Link to ="/search"><button onClick ={handleSearch} className='bg-amber-600 text-black px-3 py-1 rounded-tr-sm rounded-br-sm ' >Go</button></Link>
       </div >
       <div className="ml-18 mt-4"><Link to ="/login"><button className="bg-amber-500 text-black w-28 rounded-md text-xl pb-0.5 hover:cursor-pointer">Login</button></Link></div>
-      <div className='ml-12 mt-2'><p className='text-white pb-0.5'>Returns & <br/>
+      <div className='ml-12 mt-2'><p className='text-white pb-0.5'>Track my <br/>
         Orders</p></div>
       <div className = "ml-10 mt-1"><img src = "cart_new.png" className = "w-20 h-15 bg-transparent"></img></div>
 

@@ -15,12 +15,12 @@ const Signup = () => {
 
   return (
     
-    <div className="flex justify-center items-center min-h-screen bg-gray-100 pt-4">
+    <div className="flex justify-center items-center min-h-screen bg-gray-300 pt-4">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-sm">
-        <img src="amazon_new.png" alt="Amazon Logo" className="mx-auto mb-2 w-32" />
-        <h2 className="text-2xl font-bold mb-4 text-center">Create account</h2>
+        <img src="amazino_new.png" alt="Amazino Logo" className="mx-auto mb-2 w-32" />
+        <h2 className="text-2xl font-bold mb-4 text-center">Create Your Amazino account</h2>
         <form onSubmit={handleSubmit}>
-          <label className="block mb-2 font-semibold">Your name</label>
+          <label className="block mb-2 font-semibold">Enter your full name</label>
           <input
             type="text"
             className="w-full p-2 mb-4 border rounded"
@@ -29,7 +29,7 @@ const Signup = () => {
             required
             placeholder="First and last name"
           />
-          <label className="block mb-2 font-semibold">Mobile number</label>
+          <label className="block mb-2 font-semibold"> Enter your Mobile number</label>
           <input
             type="text"
             className="w-full p-2 mb-4 border rounded"
@@ -38,7 +38,7 @@ const Signup = () => {
             required
             placeholder="Mobile number"
           />
-          <label className="block mb-2 font-semibold">Email (optional)</label>
+          <label className="block mb-2 font-semibold"> Enter your Email (optional)</label>
           <input
             type="email"
             className="w-full p-2 mb-4 border rounded"
@@ -46,7 +46,7 @@ const Signup = () => {
             onChange={e => setEmail(e.target.value)}
             placeholder="Email"
           />
-          <label className="block mb-2 font-semibold">Password</label>
+          <label className="block mb-2 font-semibold"> Create Password</label>
           <input
             type="password"
             className="w-full p-2 mb-2 border rounded"
@@ -60,13 +60,13 @@ const Signup = () => {
           </p>
           <button
             type="submit"
-            className="w-full bg-yellow-400 text-black font-bold py-2 rounded hover:bg-yellow-500"
+            className="w-full bg-[#eb855d] text-black font-bold py-2 rounded hover:bg-yellow-500"
           >
-            Continue
+            Submit
           </button>
         </form>
         <p className="text-xs mt-4 text-gray-600">
-          By creating an account, you agree to Amazon's Conditions of Use and Privacy Notice.
+          By creating an account, you agree to Amazino's Conditions of Use and Privacy Notice.
         </p>
         <hr className="my-6" />
         <p className="text-sm text-center">

@@ -5,7 +5,7 @@ const CardLayout= () => {
     <div className="flex bg-transparent justify-evenly px-8  ">
       <div className="w-[306px] h-[375px] bg-white ml-10 mt-50 flex flex-col justify-between rounded-md">
         <div>
-          <h3 className='text-lg font-bold p-1 ml-2'>Minimum 50% off | Amazon Brands & more</h3>
+          <h3 className='text-lg font-bold p-1 ml-2'>Minimum 50% off | Amazino Brands & more</h3>
           <div className='w-[306px] flex flex-wrap'>
             <div className='m-2 w-32 h-32'>
               <img src="kitchen.jpeg" alt="" />
